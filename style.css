@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #f8b400;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#menu .donut {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#menu img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#personalizacao button {
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#personalizacao button:hover {
+    background-color: #e0a800;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}

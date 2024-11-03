@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simpson Donuts</title>
+    <link rel="shortcut icon" type="logo-donut.png" href="img/logo-donut.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Adicionado defer para garantir que o script seja carregado após o DOM -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-donut.png" alt="Logo Simpson Donuts" class="logo">
+        <div class="header-text">
+            <h1>Bem-vindo ao Simpson Donuts</h1>
+            <p>Deliciosos mini donuts em diversos sabores!</p>
+        </div>
+        <div class="header-buttons">
+            <a href="index.html" class="button">Início</a>
+            <a href="menu.html" class="button">Menu</a>
+        </div>
+    </header>
+
+    <section id="menu">
+        <h2>Nosso Cardápio</h2>
+        <div class="carousel">
+            <div class="carousel-items">
+                <div class="donut">
+                    <img src="img/chocolate.jpg" alt="Donut de Chocolate">
+                    <p>Donut de Chocolate - R$5,50</p>
+                </div>
+                <div class="donut">
+                    <img src="img/morango.png" alt="Donut de Morango">
+                    <p>Donut Temático - R$5,50</p>
+                </div>
+                <div class="donut">
+                    <img src="img/leite-ninho.png" alt="Donut de Doce de Leite">
+                    <p>Donut de Doce de Leite - R$5,50</p>
+                </div>
+            </div>
+            <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+    </section>
+
+
+
+    <div class="image-container">
+        <img src="img/homer-donut.png" alt="Homer" class="homer-donut-img left" id="homerDonutLeft">
+        <img src="img/homer-donut.png" alt="Homer" class="homer-donut-img right" id="homerDonutRight">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Simpsons Donuts. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

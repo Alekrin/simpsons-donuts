@@ -1,48 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Donuts</title>
+    <title>Simpson Donuts</title>
+    <link rel="shortcut icon" type="logo-donut.png" href="img/logo-donut.png">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
+
 <body>
     <header>
-        <h1>Bem-vindo ao Mini Donuts</h1>
-        <p>Deliciosos mini donuts em diversos sabores e personalizações!</p>
+        <img src="img/logo-donut.png" alt="Logo Simpson Donuts" class="logo">
+        <div class="header-text">
+            <h1>Bem-vindo ao Simpson Donuts</h1>
+            <p>Deliciosos mini donuts em diversos sabores!</p>
+        </div>
+        <div class="header-buttons">
+            <a href="index.html" class="button">Início</a>
+            <a href="menu.html" class="button">Menu</a>
+        </div>
     </header>
 
-    <section id="menu">
-        <h2>Nosso Cardápio</h2>
-        <div class="donut">
-            <img src="img/chocolate.jpg" alt="Donut de Chocolate">
-            <p>Donut de Chocolate - R$5,00</p>
-        </div>
-        <div class="donut">
-            <img src="img/morango.jpg" alt="Donut de Morango">
-            <p>Donut de Morango - R$5,00</p>
-        </div>
-        <div class="donut">
-            <img src="img/doce-de-leite.jpg" alt="Donut de Doce de Leite">
-            <p>Donut de Doce de Leite - R$5,00</p>
-        </div>
-    </section>
+    <div class="photo-gallery">
+        <h2>Desenvolvedores</h2>
+        <table>
+            <tr>
+                <td><img src="img/alex-reis.jpg" alt="alex" class="photo-circle"></td>
+                <td>Alex Reis</td>
+            </tr>
+            <tr>
+                <td><img src="img/adriano-cachorro.jpg" alt="adriano" class="photo-circle"></td>
+                <td>Macaco</td>
+            </tr>
+            <tr>
+                <td><img src="img/bola-cachorro.jpg" alt="kauan" class="photo-circle"></td>
+                <td>Bola</td>
+            </tr>
+            <tr>
+                <td><img src="img/felipao-cachorro.jpg" alt="felipe" class="photo-circle"></td>
+                <td>Felipão</td>
+            </tr>
+            <tr>
+                <td><img src="img/minatinho.jpg" alt="ricardo" class="photo-circle"></td>
+                <td>Minatinho</td>
+            </tr>
+            <tr>
+                <td><img src="img/dioglas.jpg" alt="douglas" class="photo-circle"></td>
+                <td>Douglinhas</td>
+            </tr>
+        </table>
+    </div>
 
-    <section id="personalizacao">
-        <h2>Personalize seu Donut</h2>
-        <p>Escolha sua cobertura e confeitos preferidos para deixar o donut com a sua cara!</p>
-        <button onclick="personalizarDonut()">Personalize Aqui</button>
-    </section>
+    <div class="photo-gallery">
+        <h2>Vendedores</h2>
+        <table>
+            <tr>
+                <td><img src="img/vesguinho.png" alt="vendedor1" class="photo-circle"></td>
+                <td>Thyago</td>
+            </tr>
+            <tr>
+                <td><img src="img/yan.jpg" alt="vendedor2" class="photo-circle"></td>
+                <td>Yan</td>
+            </tr>
+            <tr>
+                <td><img src="img/caioxfactor.jpg" alt="vendedor3" class="photo-circle"></td>
+                <td>Caio</td>
+            </tr>
+            <tr>
+                <td><img src="img/luiza.jpg" alt="vendedor4" class="photo-circle"></td>
+                <td>Luiza</td>
+            </tr>
+            <tr>
+                <td><img src="img/eduardo.jpg" alt="vendedor5" class="photo-circle"></td>
+                <td>Eduardo</td>
+            </tr>
+            <tr>
+                <td><img src="img/alice.png" alt="vendedor6" class="photo-circle"></td>
+                <td>Alice</td>
+            </tr>
+            <tr>
+                <td><img src="img/larissa.jpg" alt="vendedor7" class="photo-circle"></td>
+                <td>Larissa</td>
+            </tr>
+            <tr>
+                <td><img src="img/isabel.jpg" alt="vendedor8" class="photo-circle"></td>
+                <td>Maria</td>
+            </tr>
+        </table>
+    </div>
 
-    <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>Somos apaixonados por donuts e criamos a Mini Donuts para compartilhar essa paixão com você!</p>
-    </section>
+    <div class="image-container">
+        <img src="img/homer-donut.png" alt="Homer" class="homer-donut-img left" id="homerDonutLeft">
+        <img src="img/homer-donut.png" alt="Homer" class="homer-donut-img right" id="homerDonutRight">
+    </div>
 
     <footer>
-        <p>&copy; 2024 Mini Donuts. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Simpsons Donuts. Todos os direitos reservados.</p>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
